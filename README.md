@@ -1,4 +1,4 @@
-## Sing Star Ultimate Party for PlayStation 2 is the greatest game ever, change my mind...
+## Sing Star Ultimate Party for PlayStation 2 is the greatest game ever, change my mind
 
 ## Trained with the camels and yeah
 
