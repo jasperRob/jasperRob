@@ -1,7 +1,4 @@
-
-
-
-
+## Sing Star Ultimate Party for PplayStation 2 is the greatest game ever, change my mind...
 
 
 <!--
