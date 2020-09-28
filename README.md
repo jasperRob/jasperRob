@@ -1,6 +1,6 @@
-## Sing Star Ultimate Party for PlayStation 2 is the greatest game ever, change my mind
+## Sing Star Ultimate Party for PlayStation 2 is the greatest game ever
 
-## Trained with the camels and yeah
+## Trained with the camels
 
 <!--
 **jasperRob/jasperRob** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
