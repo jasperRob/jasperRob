@@ -1,4 +1,4 @@
-## Sing Star Ultimate Party for PlayStation 2 is the greatest game ever
+## Sing Star Ultimate Party for PlayStation 2 is the greatest game
 
 ## Trained with the camels
 
