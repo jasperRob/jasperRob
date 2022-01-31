@@ -1,4 +1,4 @@
-### Your Friendly neighbourhood chicken feeding minestrone maker
+### Your friendly neighbourhood chicken feeding minestrone maker
 
 Sing Star Ultimate Party for PlayStation 2 is the greatest game.
 
