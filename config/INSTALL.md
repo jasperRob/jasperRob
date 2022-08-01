@@ -1,6 +1,8 @@
 # System Setup
 
-A detailed guide to setup my system
+A detailed guide created to help me set up my system on a new machine in a flash. 
+
+***Disclaimer: Some of the contents of this repo may not be mine, including themes.***
 
 &nbsp;
 
