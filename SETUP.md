@@ -25,7 +25,6 @@ curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
 
-
 #### Java
 
 ```bash
@@ -50,6 +49,8 @@ brew install node
 brew install rust
 ```
 
+&nbsp;
+
 ## Vim Setup
 
 #### NeoVim Nightly
@@ -69,4 +70,18 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 alias lvim="sh $HOME/.local/bin/lvim"
 ```
 
+#### NerdFont
 
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+***Then select this font inside terminal preferences***
+
+#### Sync LunarVim Packages
+
+```bash
+lvim
+:PackerSync
+```
