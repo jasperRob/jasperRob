@@ -12,9 +12,9 @@ A detailed guide created to help me set up my system on a new machine in a flash
 git clone git@github.com:jasperRob/jasperRob.git
 ```
 
-## Terminal Basics
-
 &nbsp;
+
+## Terminal Basics
 
 #### OhMyZSH
 
