@@ -9,6 +9,8 @@ A detailed guide created to help me set up my system on a new machine in a flash
 ## Clone The Repo
 
 ```bash
+mkdir $HOME/projects/
+cd $HOME/projects/
 git clone git@github.com:jasperRob/jasperRob.git
 ```
 
