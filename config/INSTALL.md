@@ -14,6 +14,14 @@ A detailed guide created to help me set up my system on a new machine in a flash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+##### Add to .zshrc
+
+```bash
+# source config
+export ZSH_CONFIG=$HOME/projects/jasperRob/config/zsh
+source $ZSH_CONFIG/source.sh
+```
+
 #### XCode Command Line Tools
 
 ```bash
