@@ -75,11 +75,6 @@ brew install neovim
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
 
-***Inside .zshrc***
-```bash
-alias lvim="sh $HOME/.local/bin/lvim"
-```
-
 #### NerdFont
 
 ```bash
