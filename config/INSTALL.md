@@ -6,7 +6,15 @@ A detailed guide created to help me set up my system on a new machine in a flash
 
 &nbsp;
 
+## Clone The Repo
+
+```bash
+git clone git@github.com:jasperRob/jasperRob.git
+```
+
 ## Terminal Basics
+
+&nbsp;
 
 #### OhMyZSH
 
