@@ -124,4 +124,5 @@ lvim
 }
 ```
 
+LunarVim must be run with Java17 or higher for LSP to work!
 
