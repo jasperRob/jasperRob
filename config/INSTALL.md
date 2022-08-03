@@ -120,7 +120,7 @@ lvim
 
 ```json
 {
-	"java.jdt.ls.java.home": "$HOME/.sdkman/candidates/java/22.1.0.r17-grl"
+	"java.jdt.ls.java.home": "$JAVA_HOME"
 }
 ```
 
