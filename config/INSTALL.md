@@ -32,6 +32,21 @@ export ZSH_CONFIG=$HOME/projects/jasperRob/config/zsh
 source $ZSH_CONFIG/source.sh
 ```
 
+#### ZSH Plugins
+
+```bash
+brew install zsh-syntax-highlighting
+```
+
+#### PowerLevel10K
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
+***Open a new terminal to configure PowerLevel10K***
+
 #### XCode Command Line Tools
 
 ```bash
