@@ -62,8 +62,13 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 #### Java
 
+Java11 will be used for compilation.
+Java17 will be used for LSP.
+
 ```bash
 sdk install java 22.1.0.r11-grl
+sdk install java 22.1.0.r17-grl
+sdk use java 22.1.0.r11-grl
 ```
 
 #### Maven
@@ -121,3 +126,20 @@ brew install --cask font-hack-nerd-font
 lvim
 :PackerSync
 ```
+
+### JDTLS
+
+***Open a java file in LunarVim, open jdtls.json and add this setting.***
+
+```bash
+:LspSettings jdtls
+```
+
+```json
+{
+	"java.jdt.ls.java.home": "$JAVA_HOME"
+}
+```
+
+LunarVim must be run with Java17 or higher for LSP to work!
+
