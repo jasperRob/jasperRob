@@ -6,7 +6,7 @@ A detailed guide created to help me set up my system on a new machine in a flash
 
 &nbsp;
 
-## Clone The Repo
+### Clone The Repo
 
 ```bash
 mkdir $HOME/projects/
@@ -16,12 +16,80 @@ git clone git@github.com:jasperRob/jasperRob.git
 
 &nbsp;
 
-## Terminal Basics
 
-#### OhMyZSH
+### Install NodeJS
+
+#### ArchLinux
+```bash
+sudo pacman -S npm
+```
+
+#### Ubuntu
+```bash
+sudo apt install nodejs
+```
+
+#### MacOSX
+```bash
+brew install node
+```
+
+&nbsp;
+
+### Install Rust
+
+#### ArchLinux
+```bash
+sudo pacman -S rust
+```
+
+#### Ubuntu
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+#### MacOSX
+```bash
+brew install rust
+```
+
+&nbsp;
+
+### ZSH Package
+
+#### ArchLinux
+```bash
+pacman -S zsh
+```
+
+#### Ubuntu
+```bash
+sudo apt install zsh
+```
+
+#### MacOSX
+```bash
+brew install zsh
+```
+
+&nbsp;
+
+### OhMyZSH
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### ZSH Plugins
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+#### Set Default Shell
+
+```bash
+chsh -s $(which zsh)
 ```
 
 ##### Add to .zshrc
@@ -32,13 +100,9 @@ export ZSH_CONFIG=$HOME/projects/jasperRob/config/zsh
 source $ZSH_CONFIG/source.sh
 ```
 
-#### ZSH Plugins
+&nbsp;
 
-```bash
-brew install zsh-syntax-highlighting
-```
-
-#### PowerLevel10K
+### PowerLevel10K
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
@@ -47,20 +111,32 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 ***Open a new terminal to configure PowerLevel10K***
 
-#### XCode Command Line Tools
+&nbsp;
 
+### C Command Line Tools (MacOSX)
+
+#### Ubuntu
+```bash
+sudo apt-get install build-essential
+```
+
+#### MacOSX
 ```bash
 xcode-select --install
 ```
 
-#### SDKMAN
+&nbsp;
+
+### SDKMAN
 
 ```bash
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
 
-#### Java
+&nbsp;
+
+### Java
 
 Java11 will be used for compilation.
 Java17 will be used for LSP.
@@ -71,48 +147,31 @@ sdk install java 22.1.0.r17-grl
 sdk use java 22.1.0.r11-grl
 ```
 
-#### Maven
+&nbsp;
+
+### Maven
 
 ```bash
 sdk install maven
-```
-
-#### NodeJS
-
-```bash
-brew install node
-```
-
-#### Rust
-
-```bash
-brew install rust
 ```
 
 &nbsp;
 
 ## Vim Setup
 
-#### NeoVim Nightly
+### NerdFont
 
+#### ArchLinux
 ```bash
-brew install neovim
+TODO
 ```
 
-#### LunarVim
-
+#### Ubuntu
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+TODO
 ```
 
-#### RipGrep
-
-```bash
-brew install rg
-```
-
-#### NerdFont
-
+#### MacOSX
 ```bash
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
@@ -120,12 +179,65 @@ brew install --cask font-hack-nerd-font
 
 ***Then select this font inside terminal preferences***
 
+&nbsp;
+
+### RipGrep
+
+#### ArchLinux
+```bash
+TODO
+```
+
+#### Ubuntu
+```bash
+sudo apt install ripgrep
+```
+
+#### MacOSX
+```bash
+brew install rg
+```
+
+&nbsp;
+
+### NeoVim Nightly
+
+#### ArchLinux
+```bash
+sudo pacman -S neovim
+```
+
+#### Ubuntu
+```bash
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
+tar xzvf nvim-linux64.tar.gz
+./nvim-linux64/bin/nvim
+sudo cp ./nvim-linux64/bin/nvim /usr/local/bin/nvim
+rm ./nvim-linux64*
+```
+
+#### MacOSX
+```bash
+brew install neovim
+```
+
+&nbsp;
+
+### LunarVim
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+```
+
+
 #### Sync LunarVim Packages
 
 ```bash
 lvim
 :PackerSync
 ```
+
+&nbsp;
 
 ### JDTLS
 
