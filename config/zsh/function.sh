@@ -1,5 +1,7 @@
 #!/bin/zsh
 
-fck() {
-	echo "F*** off ${1}"
+build() {
+	./build.sh
+	./build-docker.sh $@
 }
+
