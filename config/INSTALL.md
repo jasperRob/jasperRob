@@ -113,8 +113,14 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 &nbsp;
 
-### XCode Command Line Tools (MacOSX)
+### C Command Line Tools (MacOSX)
 
+#### Ubuntu
+```bash
+sudo apt-get install build-essential
+```
+
+#### MacOSX
 ```bash
 xcode-select --install
 ```
@@ -184,7 +190,7 @@ TODO
 
 #### Ubuntu
 ```bash
-
+sudo apt install ripgrep
 ```
 
 #### MacOSX
@@ -203,8 +209,11 @@ sudo pacman -S neovim
 
 #### Ubuntu
 ```bash
-
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
+tar xzvf nvim-linux64.tar.gz
+./nvim-linux64/bin/nvim
 ```
+***You will want to alias it***
 
 #### MacOSX
 ```bash
