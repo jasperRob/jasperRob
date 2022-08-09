@@ -212,8 +212,9 @@ sudo pacman -S neovim
 wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
 ./nvim-linux64/bin/nvim
+sudo cp ./nvim-linux64/bin/nvim /usr/local/bin/nvim
+rm ./nvim-linux64*
 ```
-***You will want to alias it***
 
 #### MacOSX
 ```bash
