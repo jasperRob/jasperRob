@@ -107,7 +107,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 &nbsp;
 
-### XCode Command Line Tools
+### XCode Command Line Tools (MacOSX)
 
 ```bash
 xcode-select --install
@@ -146,6 +146,28 @@ sdk install maven
 &nbsp;
 
 ## Vim Setup
+
+### NerdFont
+
+#### ArchLinux
+```bash
+TODO
+```
+
+#### Ubuntu
+```bash
+TODO
+```
+
+#### MacOSX
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+***Then select this font inside terminal preferences***
+
+&nbsp;
 
 ### NeoVim Nightly
 
@@ -190,28 +212,6 @@ TODO
 ```bash
 brew install rg
 ```
-
-&nbsp;
-
-### NerdFont
-
-#### ArchLinux
-```bash
-TODO
-```
-
-#### Ubuntu
-```bash
-TODO
-```
-
-#### MacOSX
-```bash
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
-```
-
-***Then select this font inside terminal preferences***
 
 &nbsp;
 
