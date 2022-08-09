@@ -55,7 +55,7 @@ brew install rust
 
 &nbsp;
 
-### OhMyZSH
+### ZSH Package
 
 #### ArchLinux
 ```bash
@@ -73,6 +73,12 @@ brew install zsh
 ```
 
 &nbsp;
+
+### OhMyZSH
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 #### ZSH Plugins
 
