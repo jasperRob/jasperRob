@@ -169,6 +169,25 @@ brew install --cask font-hack-nerd-font
 
 &nbsp;
 
+### RipGrep
+
+#### ArchLinux
+```bash
+TODO
+```
+
+#### Ubuntu
+```bash
+
+```
+
+#### MacOSX
+```bash
+brew install rg
+```
+
+&nbsp;
+
 ### NeoVim Nightly
 
 #### ArchLinux
@@ -194,28 +213,8 @@ brew install neovim
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
 
-&nbsp;
 
-### RipGrep
-
-#### ArchLinux
-```bash
-TODO
-```
-
-#### Ubuntu
-```bash
-
-```
-
-#### MacOSX
-```bash
-brew install rg
-```
-
-&nbsp;
-
-### Sync LunarVim Packages
+#### Sync LunarVim Packages
 
 ```bash
 lvim
