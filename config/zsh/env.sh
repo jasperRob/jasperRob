@@ -11,3 +11,4 @@ export ENV_FILE="${HOME}/projects/genny/genny-main/genny.env"
 export GENNY_ENV_FILE="${HOME}/.genny/.env"
 
 export $(grep -v "^$" $GENNY_ENV_FILE | grep -v "^#" | xargs)
+
