@@ -142,8 +142,8 @@ Java11 will be used for compilation.
 Java17 will be used for LSP.
 
 ```bash
-sdk install java 22.1.0.r11-grl
-sdk install java 22.1.0.r17-grl
+sdk install java 22.1.0.r11-grl &&
+sdk install java 22.1.0.r17-grl &&
 sdk use java 22.1.0.r11-grl
 ```
 
