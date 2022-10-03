@@ -117,7 +117,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 #### Ubuntu
 ```bash
-sudo apt-get install build-essential
+sudo apt install build-essential
 ```
 
 #### MacOSX
