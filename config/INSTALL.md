@@ -19,10 +19,6 @@ git clone git@github.com:jasperRob/jasperRob.git
 
 ### Install NodeJS
 
-#### ArchLinux
-```bash
-sudo pacman -S npm
-```
 
 #### Ubuntu
 ```bash
@@ -38,11 +34,6 @@ brew install node
 
 ### Install Rust
 
-#### ArchLinux
-```bash
-sudo pacman -S rust
-```
-
 #### Ubuntu
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -56,11 +47,6 @@ brew install rust
 &nbsp;
 
 ### ZSH Package
-
-#### ArchLinux
-```bash
-pacman -S zsh
-```
 
 #### Ubuntu
 ```bash
@@ -161,11 +147,6 @@ sdk install maven
 
 ### NerdFont
 
-#### ArchLinux
-```bash
-TODO
-```
-
 #### Ubuntu
 ```bash
 TODO
@@ -183,11 +164,6 @@ brew install --cask font-hack-nerd-font
 
 ### RipGrep
 
-#### ArchLinux
-```bash
-TODO
-```
-
 #### Ubuntu
 ```bash
 sudo apt install ripgrep
@@ -201,11 +177,6 @@ brew install rg
 &nbsp;
 
 ### NeoVim Nightly
-
-#### ArchLinux
-```bash
-sudo pacman -S neovim
-```
 
 #### Ubuntu
 ```bash
