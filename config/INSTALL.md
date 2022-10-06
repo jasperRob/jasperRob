@@ -6,16 +6,6 @@ A detailed guide created to help me set up my system on a new machine in a flash
 
 &nbsp;
 
-### Clone The Repo
-
-```bash
-mkdir $HOME/projects/
-cd $HOME/projects/
-git clone git@github.com:jasperRob/jasperRob.git
-```
-
-&nbsp;
-
 
 ### Install NodeJS
 
@@ -88,6 +78,22 @@ source $ZSH_CONFIG/source.sh
 
 &nbsp;
 
+
+### NerdFont
+
+#### Ubuntu
+```bash
+TODO
+```
+
+#### MacOSX
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+&nbsp;
+
 ### PowerLevel10K
 
 ```bash
@@ -144,19 +150,6 @@ sdk install maven
 &nbsp;
 
 ## Vim Setup
-
-### NerdFont
-
-#### Ubuntu
-```bash
-TODO
-```
-
-#### MacOSX
-```bash
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
-```
 
 ***Then select this font inside terminal preferences***
 
@@ -225,4 +218,15 @@ lvim
 ```
 
 LunarVim must be run with Java17 or higher for LSP to work!
+
+
+&nbsp;
+
+### Clone The Repo
+
+```bash
+mkdir $HOME/projects/
+cd $HOME/projects/
+git clone git@github.com:jasperRob/jasperRob.git
+```
 
