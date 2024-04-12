@@ -6,23 +6,9 @@ A detailed guide created to help me set up my system on a new machine in a flash
 
 &nbsp;
 
-### Clone The Repo
-
-```bash
-mkdir $HOME/projects/
-cd $HOME/projects/
-git clone git@github.com:jasperRob/jasperRob.git
-```
-
-&nbsp;
-
 
 ### Install NodeJS
 
-#### ArchLinux
-```bash
-sudo pacman -S npm
-```
 
 #### Ubuntu
 ```bash
@@ -38,11 +24,6 @@ brew install node
 
 ### Install Rust
 
-#### ArchLinux
-```bash
-sudo pacman -S rust
-```
-
 #### Ubuntu
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -56,11 +37,6 @@ brew install rust
 &nbsp;
 
 ### ZSH Package
-
-#### ArchLinux
-```bash
-pacman -S zsh
-```
 
 #### Ubuntu
 ```bash
@@ -102,6 +78,22 @@ source $ZSH_CONFIG/source.sh
 
 &nbsp;
 
+
+### NerdFont
+
+#### Ubuntu
+```bash
+TODO
+```
+
+#### MacOSX
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
+&nbsp;
+
 ### PowerLevel10K
 
 ```bash
@@ -117,7 +109,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 #### Ubuntu
 ```bash
-sudo apt-get install build-essential
+sudo apt install build-essential
 ```
 
 #### MacOSX
@@ -142,8 +134,8 @@ Java11 will be used for compilation.
 Java17 will be used for LSP.
 
 ```bash
-sdk install java 22.1.0.r11-grl
-sdk install java 22.1.0.r17-grl
+sdk install java 22.1.0.r11-grl &&
+sdk install java 22.1.0.r17-grl &&
 sdk use java 22.1.0.r11-grl
 ```
 
@@ -159,34 +151,11 @@ sdk install maven
 
 ## Vim Setup
 
-### NerdFont
-
-#### ArchLinux
-```bash
-TODO
-```
-
-#### Ubuntu
-```bash
-TODO
-```
-
-#### MacOSX
-```bash
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
-```
-
 ***Then select this font inside terminal preferences***
 
 &nbsp;
 
 ### RipGrep
-
-#### ArchLinux
-```bash
-TODO
-```
 
 #### Ubuntu
 ```bash
@@ -202,18 +171,13 @@ brew install rg
 
 ### NeoVim Nightly
 
-#### ArchLinux
-```bash
-sudo pacman -S neovim
-```
-
 #### Ubuntu
 ```bash
-wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
-tar xzvf nvim-linux64.tar.gz
-./nvim-linux64/bin/nvim
-sudo cp ./nvim-linux64/bin/nvim /usr/local/bin/nvim
-rm ./nvim-linux64*
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz &&
+tar xzvf nvim-linux64.tar.gz &&
+./nvim-linux64/bin/nvim &&
+sudo cp ./nvim-linux64/bin/nvim /usr/local/bin/nvim &&
+rm -rf ./nvim-linux64*
 ```
 
 #### MacOSX
@@ -267,5 +231,15 @@ sudo apt install fzf
 #### MacOSX
 ```bash
 brew install fzf
+```
+
+&nbsp;
+
+### Clone The Repo
+
+```bash
+mkdir $HOME/projects/
+cd $HOME/projects/
+git clone git@github.com:jasperRob/jasperRob.git
 ```
 
