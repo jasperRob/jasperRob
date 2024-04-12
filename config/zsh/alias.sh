@@ -2,8 +2,8 @@
 
 # ZSH
 
-alias _zsh="vim ~/.zshrc"
-alias zc="cd $ZSH_CONFIG"
+alias zrc="vim ~/.zshrc"
+alias config="cd $ZSH_CONFIG"
 
 # VIM
 alias lvim="sh $HOME/.local/bin/lvim"
@@ -17,4 +17,5 @@ alias _gq="cd $GENNY_HOME/gennyq"
 
 # VM
 alias vm="ssh jaspervm"
+
 
