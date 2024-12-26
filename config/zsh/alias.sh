@@ -5,10 +5,7 @@
 alias _zsh="vim ~/.zshrc"
 alias zc="cd $ZSH_CONFIG"
 
-# VIM
-alias lvim="sh $HOME/.local/bin/lvim"
-alias nvim="lvim"
-alias vim="lvim"
+# LVIM
 alias _lm="cd ~/.config/lvim"
 
 # GENNY
