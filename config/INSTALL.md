@@ -219,6 +219,19 @@ lvim
 
 LunarVim must be run with Java17 or higher for LSP to work!
 
+### Fuzzy Finder (FZF)
+
+- [FZF Installation Guide](https://github.com/junegunn/fzf?tab=readme-ov-file#installation).
+
+#### Ubuntu
+```bash
+sudo apt install fzf
+```
+
+#### MacOSX
+```bash
+brew install fzf
+```
 
 &nbsp;
 
